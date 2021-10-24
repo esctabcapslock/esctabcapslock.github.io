@@ -7,8 +7,11 @@
 
 ## 링크
 
+- [터치 기반 백터 기반 그림판 만들기](https://esctabcapslock.github.io/JS_touch/벡터%20그림판/휠관련.html)
+- [오실레이터 만들어 연주하기](https://esctabcapslock.github.io/WebAudioAPI/멜로디.html)
+- [유사 이퀄라이저 만들기](https://esctabcapslock.github.io/WebAudioAPI/푸리에.html)
 - [오늘의 급식](https://esctabcapslock.github.io/sasameal/)
 - [북궐도형 온라인](https://esctabcapslock.github.io/Gyeongbokgung/)
-- [아파트 매매가격 시각화](https://esctabcapslock.github.io/Apartment_Actual_Price/2(%EC%9D%8D%EB%A9%B4%EB%8F%99).html)
-- [영타 잘못친거 변환기](https://esctabcapslock.github.io/wrong-ko/%ED%95%9C%EC%98%81%EB%B3%80%ED%99%98.html)
+- [아파트 매매가격 시각화](https://esctabcapslock.github.io/Apartment_Actual_Price/2(읍면동).html)
+- [영타 잘못친거 변환기](https://esctabcapslock.github.io/wrong-ko/한영변환.html)
 - [LaTeX 온라인 수식 편집기](https://esctabcapslock.github.io/1/LaTex%EC%97%B0%EC%8A%B5.html)
