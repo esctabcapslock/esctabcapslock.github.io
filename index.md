@@ -2,7 +2,7 @@
 
 ## 목적
 
-- (이거)[https://blog.chulgil.me/how-to-make-blog-using-github/]보고 한번 만들어 보려고...
+- [이거](https://blog.chulgil.me/how-to-make-blog-using-github/)보고 한번 만들어 보려고...
 
 ## 링크
 
