@@ -7,7 +7,7 @@ entries:
       - title: 이곳은 esctabcapslock의 블로그입니다!
       - title: 뭘 하며 살았는지 찾기 쉽게 하기 위해서 블로그를 열었습니다.
       - title: About me
-        URL: about
+        URL: ./about
       # - title: github repo
         # url: https://github.com/riggraz/no-style-please
       # - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
@@ -20,13 +20,25 @@ entries:
       show_more_url: archive.html
 
   - title: posts by category
-    post_list:
-      category: 웹
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
-      category: 기타
-      category: ML
+    entries:
+      - title: ML
+        post_list:
+          category: ML
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: example2-archive.html
+      - title: 웹
+        post_list:
+          category: 웹
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: example2-archive.html
+      - title: 기타
+        post_list:
+          category: 기타
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: example2-archive.html
 
   - title: rss
     url: feed.xml
