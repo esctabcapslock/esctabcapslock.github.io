@@ -1,0 +1,54 @@
+---
+layout: post
+title: "gnuplot 사용하기"
+category: 기타
+---
+
+
+ # gnuplot 사용하기
+
+ - [$\LaTeX$에 활용하기](https://stackoverflow.com/questions/36386656/how-to-plot-in-latex-with-gnuplot)
+ - [약간 팁?](https://gist.github.com/pgmac/1c4272d2f6159616d4dec0141fd08efb)
+ - [find-local-maximum](https://stackoverflow.com/questions/28173128/find-local-maximum-of-data-files-in-gnuplot)
+<!-- set title "HPLC data of Adenine & Caffeine"
+set table $Data
+    plot FILE using 1:3 with table
+unset table
+ColX=1
+ColY=2
+y2=y1=NaN
+set print $Peaks
+set print
+do for [i=2:|$Data|-1] {
+    if ( word($Data[i-1],ColY)<word($Data[i],ColY) && word($Data[i+1],ColY)<word($Data[i],ColY) ) \
+    { print sprintf("%d %s %s", i, word($Data[i],ColX), word($Data[i],ColY)) }
+} -->
+
+ ```js
+set datafile separator ','
+set title "HPLC data by substance at 270nm"
+FILE = 'ex1.csv'
+
+stats FILE using 2 nooutput name 'Y_'
+stats FILE using 1 every ::Y_index_max::Y_index_max nooutput
+X_max = STATS_max
+set label 2 sprintf("(%.1f,%.3f)", X_max+0.1,Y_max) center at first X_max,Y_max point pt 7 ps 1 offset 0,1
+
+stats FILE using 3 nooutput name 'Y_'
+stats FILE using 1 every ::Y_index_max::Y_index_max nooutput
+X_max = STATS_max
+set label 3 sprintf("(%.1f,%.3f)", X_max+0.1,Y_max) center at first X_max,Y_max point pt 7 ps 1 offset 0,1
+
+set xrange [:]
+set xlabel "Time (sec)"
+set yrange[-50:]
+set ylabel "Voltage (mV)"
+set grid
+show grid
+plot FILE using 1:2 with lines title 'Adenine (300 µM)', '' using 1:3 with lines title 'Caffeine (500 µM)'
+ ```
+
+
+
+ 
+ OOOOOOO
