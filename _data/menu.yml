@@ -21,15 +21,15 @@ entries:
 
   - title: posts by category
     entries:
-      - title: ML
-        post_list:
-          category: ML
-          show_more: true
-          show_more_text: See more posts...
-          show_more_url: example2-archive.html
       - title: 웹
         post_list:
           category: 웹
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: example2-archive.html
+      - title: ML
+        post_list:
+          category: ML
           show_more: true
           show_more_text: See more posts...
           show_more_url: example2-archive.html
