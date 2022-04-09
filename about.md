@@ -3,9 +3,8 @@ layout: page
 title: About
 ---
 
-- 이 곳은 esctabcapslock의 블로그입니다!
+- 이곳은 esctabcapslock의 블로그입니다!
 - 뭘 하며 살았는지 찾기 쉽게 하기 위해서 블로그를 열었습니다.
-- 글 대충쓸거임
 
 ## 만든것들
 
