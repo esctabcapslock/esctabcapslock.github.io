@@ -18,42 +18,12 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+  <!-- 구글 에널리틱스 -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KP33B5XP6F"></script> 
 
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KP33B5XP6F"></script>
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyAPben4fGNDv1YZ_lLSjMIw4BEanJ7Mh4I",
-      authDomain: "blog-comment-cefae.firebaseapp.com",
-      projectId: "blog-comment-cefae",
-      storageBucket: "blog-comment-cefae.appspot.com",
-      messagingSenderId: "963961969565",
-      appId: "1:963961969565:web:335d6da5fed67436d06d74",
-      measurementId: "G-SMP66J9DC7"
-    };
-
-    import {getFirestore, getDocs } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-    const db = getFirestore(app);
-    console.log(app,db,analytics)
-
-  </script>
-
+  <!-- post 내부일 경우만 호출하도록 손 봐야함 -->
   {% if page %}
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.6.10/firebase-app.min.js" integrity="sha512-/DvDwFlCHoKMj2jthhvkYVF3MOJDzs8G3JEdnCszQevBbnNUh1/zrI05pEHC2BZedN9otrl6dCqOvYnc9b4eyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.6.10/firebase-database.min.js" integrity="sha512-pk7sKb0zMkfFAAieR+OUu7y8/HdMZJPDEiNHYvKuvQsnaQ0n2BtlxFgxwsoYg6/bBl8snwwpr0zm+jv3ykxlHw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.6.10/firebase-firestore.min.js" integrity="sha512-Osg0FYaLoWvx0/PjEQ5aKr2IobMcYM7cMAClkLMVcH7/PEgj+b+RNCweS2Y4zzs7loifCDOZ5ogjkGY8o05BOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <script src="/assets/js/comment.js"></script>
+    <script type="module" src="/assets/js/comment.js"></script>
   {% endif %}
 
 </head>
