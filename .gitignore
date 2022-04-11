@@ -5,3 +5,10 @@
 _site
 vendor
 Gemfile.lock
+
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+package-lock.json
