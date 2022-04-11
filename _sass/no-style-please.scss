@@ -1,6 +1,9 @@
+html, body { background: white; }
+html { height: 100%; }
+
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
-  filter: invert(1);
+  >* {filter: invert(1);}
   img {
     filter: invert(1);
 
@@ -12,6 +15,7 @@ body[a="dark"] { @include dark-appearance; }
 
 
 @media (prefers-color-scheme: dark) {
+  html, body{background-color: black;}
   body[a="auto"] { @include dark-appearance; }
 }
 // -------------------------------------------- //
@@ -19,9 +23,7 @@ body[a="dark"] { @include dark-appearance; }
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
 
-html { height: 100%; }
 
 body {
   color: black;
