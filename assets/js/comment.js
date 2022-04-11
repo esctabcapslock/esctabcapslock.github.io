@@ -1,5 +1,5 @@
 const encodedStr = r=>r.replace(/[\u00A0-\u9999<>\&]/gi, i=>'&#'+i.charCodeAt(0)+';');
-
+document.getElementById('post-comment-ul').innerHTML = 'Getting comments...'
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
@@ -19,6 +19,8 @@ const firebaseConfig = {
   appId: "1:963961969565:web:335d6da5fed67436d06d74",
   measurementId: "G-SMP66J9DC7"
 };
+
+const admin_name = 'esctabcapslock'
 
 // https://firebase.google.com/docs/firestore/query-data/get-data
 
@@ -97,7 +99,7 @@ async function show_comments(){
     
     out_html+=
       `<li id=commentid_${id}>
-        <span><strong>${encodedStr(data.user)}</strong>#${uid.substr(0,6)}</span>
+        <span><strong>${encodedStr(data.user)}</strong>${admin_name!=data.user?`#${uid.substr(0,6)}`:''}</span>
         <time>${encodedStr((new Date(data.time.seconds*1000)).toLocaleString())}</time>
         <span>${encodedStr(data.body)}</span>
         ${uid==data.uid?`<a href="javascript:edit_comment('${id}')">edit</a/>
