@@ -97,7 +97,7 @@ async function show_comments(){
     
     out_html+=
       `<li id=commentid_${id}>
-        <span>${encodedStr(data.user)}</span>
+        <span><strong>${encodedStr(data.user)}</strong>#${uid.substr(0,6)}</span>
         <time>${encodedStr((new Date(data.time.seconds*1000)).toLocaleString())}</time>
         <span>${encodedStr(data.body)}</span>
         ${uid==data.uid?`<a href="javascript:edit_comment('${id}')">edit</a/>
