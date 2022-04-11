@@ -24,6 +24,13 @@
   <!-- post 내부일 경우만 호출하도록 손 봐야함 -->
   {% if page %}
     <script type="module" src="/assets/js/comment.js"></script>
+    <script async src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
+    </script>
+   
   {% endif %}
 
 </head>

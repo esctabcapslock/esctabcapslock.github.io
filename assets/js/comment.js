@@ -1,7 +1,10 @@
+const encodedStr = r=>r.replace(/[\u00A0-\u9999<>\&]/gi, i=>'&#'+i.charCodeAt(0)+';');
+
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
 // import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
-import { getFirestore, getDoc, getDocs, doc, setDoc, collection } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"
+import { getFirestore, getDoc, getDocs, doc, setDoc, collection, Timestamp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 // Your web app's Firebase configuration
@@ -25,22 +28,56 @@ export const db = getFirestore(app);
 console.log('app', app)
 console.log('db', db)
 
-export async function getcomments() {
-  const postname = decodeURIComponent(location.toString().split('/')[3]).replace(/\.html$/, '')
-  if (!postname) return
-
-  const comments = await getcomments(postname)
-  console.log('comments', comments)
 
 
-  const docRef = doc(db, "comment", postname);
-  const getdocs = collection(docRef, "comment")
-  const docSnaps = await getDocs(getdocs);
-  docSnaps.forEach(v => comments[v.id] = v.data())
+let _postname = undefined
+const postname = _postname?_postname:decodeURIComponent(location.toString().split('/')[3]).replace(/\.html$/, '')
+if (!postname) throw('postname 잘못됨')
+const getdocsRef = collection(db, "comment", postname, "comment")
+
+export async function getcomments(_postname) {
+  
+
+  const docSnaps = await getDocs(getdocsRef);
+  const comments = []
+  docSnaps.forEach(v => comments.push([v.id, v.data()]))
   return comments
 }
 
-const comments = await getcomments(postname)
-console.log('comments', comments)
+
+export async function setcomments(user, body){
+  if(typeof user != "string") throw('user가 이상함');
+  if(typeof body != "string") throw('댓글 내용이 이상함');
+  if(!comments || !Array.isArray(comments)) throw('댓글이 없음')
+  await setDoc(doc(getdocsRef,`c${comments.length+1}`),{
+    user,
+    body,
+    time:Timestamp.now()
+  })
+}
+
+let comments = undefined
 
 
+async function show_comments(){
+  const ele = document.getElementById('post-comment-ul')
+  ele.innerHTML = ''
+  comments =  await getcomments()
+  console.log('comments', comments)
+  for (const com of comments){  
+    ele.innerHTML+=`<li><span>${encodedStr(com[1]?.user)}</span><span>${encodedStr(com[1]?.body)}</span></li>`
+  }
+}
+await show_comments()
+
+// setcomments('test_user','body\nname')
+document.getElementById('comment-submit').addEventListener('click',async e=>{
+  const user = document.querySelector('#post-comment-input input[name=user]').value
+  const body = document.querySelector('#post-comment-input input[name=body]').value
+  try{
+    await setcomments(user, body)
+  }catch(err){
+    alert(err)
+  }
+  await show_comments()
+})

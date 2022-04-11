@@ -94,3 +94,10 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+// 댓글관련
+
+#post-comment-ul li>span:first-child::after {
+  content: ': ';
+
+}
