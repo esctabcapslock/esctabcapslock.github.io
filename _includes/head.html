@@ -22,7 +22,7 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KP33B5XP6F"></script> 
 
   <!-- post 내부일 경우만 호출하도록 손 봐야함 -->
-  {% if page.type=="post" %}
+  {% if page.path contains '_posts' %}
     <script type="module" src="/assets/js/comment.js"></script>
     <script async src="https://www.google.com/recaptcha/api.js"></script>
     <script>
