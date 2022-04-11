@@ -20,11 +20,11 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
   <!-- 구글 에널리틱스 -->
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KP33B5XP6F"></script> 
-  <a>{{page.layout}}</a>
-
+  
   <!-- post 내부일 경우만 호출하도록 손 봐야함 -->
   {% if page.layout == 'post' %}
-    <script type="module" src="/assets/js/comment.js"></script>
+  <script type="module" src="/assets/js/comment.js"></script>
   {% endif %}
-
+  
+  <a>{{page.layout}}</a>
 </head>

@@ -5,7 +5,7 @@ const encodedStr = r=>r.replace(/[\u00A0-\u9999<>\&]/gi, i=>'&#'+i.charCodeAt(0)
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
 import { getAuth, signInAnonymously,onAuthStateChanged  } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js'
 // import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
-import { getFirestore, getDoc, getDocs, doc, setDoc, collection, Timestamp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"
+import { getFirestore, getDoc, getDocs, doc, setDoc, collection, Timestamp, deleteDoc } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 // Your web app's Firebase configuration
@@ -137,7 +137,7 @@ export async function edit_comment(comment_id){
   const [_,comment] = comments[index]
   console.log('[edit_comment]',index, comment)
   const ele = document.querySelector('#commentid_'+comment_id+' .comment_edit')
-  ele.innerHTML+=
+  ele.innerHTML=
     `
     <label for="user">your name</label><input type="text" name="user" placeholder="your name">
     <label for="body">comment body</label><input type="text" name="body" placeholder="comment body">
@@ -174,7 +174,9 @@ export async function edit_comment_apply(comment_id){
 export async function delete_comment(comment_id){
   console.log('[delete_comment]')
   const index = find_index_at_comments(comment_id)
-
+  await deleteDoc(doc(getdocsRef,comment_id));
+  comments.splice(index,1)
+  await show_comments()
 }
 window.edit_comment = edit_comment
 window.edit_comment_apply  = edit_comment_apply 
