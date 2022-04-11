@@ -38,11 +38,14 @@
       measurementId: "G-SMP66J9DC7"
     };
 
-    import { } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"
+    import {getFirestore, getDocs } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"
 
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
+    const db = getFirestore(app);
+    console.log(app,db,analytics)
+
   </script>
 
   {% if page %}
