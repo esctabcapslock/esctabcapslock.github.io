@@ -78,6 +78,8 @@ export async function setcomments(user, body){
   if(typeof user != "string") throw('user가 이상함');
   if(typeof body != "string") throw('댓글 내용이 이상함');
   if(typeof uid != "string") throw('uid 설정 실패');
+  if (user.length>=30) throw(`user 글자수 30자 초과함 (${user.length}자임)`)
+  if (body.length>=1000) throw(`댓글 내용 글자수 1000자 초과함 (${body.length}자임)`)
   const now = Timestamp.now()
   const comment_id = `c${now.seconds}_${parseInt(Math.random()*1000000)}`
   const comment_data = {user,body,uid,time:now}
@@ -99,7 +101,7 @@ async function show_comments(){
     
     out_html+=
       `<li id=commentid_${id}>
-        <span><strong>${encodedStr(data.user)}</strong>${admin_name!=data.user?`#${uid.substr(0,6)}`:''}</span>
+        <span><strong>${encodedStr(data.user)}</strong>${admin_name!=data.user?`#${uid.substr(0,6)}`:'(admin)'}</span>
         <time>${encodedStr((new Date(data.time.seconds*1000)).toLocaleString())}</time>
         <span>${encodedStr(data.body)}</span>
         ${uid==data.uid?`<a href="javascript:edit_comment('${id}')">edit</a/>
@@ -158,6 +160,8 @@ export async function edit_comment_apply(comment_id){
   if(typeof user != "string") throw('user가 이상함');
   if(typeof body != "string") throw('댓글 내용이 이상함');
   if(typeof uid != "string") throw('uid 설정 실패');
+  if (user.length>=30) throw(`user 글자수 30자 초과함 (${user.length}자임)`)
+  if (body.length>=1000) throw(`댓글 내용 글자수 1000자 초과함 (${body.length}자임)`)
 
   comments[index][1].user = user
   comments[index][1].body = body
