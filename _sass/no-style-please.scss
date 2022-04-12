@@ -4,7 +4,7 @@ html { height: 100%; }
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   >* {filter: invert(1);}
-  .langlogo{filter: invert();}
+  .langlogo{filter: invert(1);}
   img {
     filter: invert(1);
 
