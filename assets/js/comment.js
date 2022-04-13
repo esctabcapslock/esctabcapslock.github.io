@@ -80,7 +80,7 @@ export async function setcomments(user, body){
   if(typeof uid != "string") throw('uid 설정 실패');
   if (user.length>=30) throw(`user 글자수 30자 초과함 (${user.length}자임)`)
   if (body.length>=1000) throw(`댓글 내용 글자수 1000자 초과함 (${body.length}자임)`)
-  if (user.length<2) throw(`user 글자수 2자 이상 입력 요함 (${user.length}자임)`)
+  if (user.length<2) throw(`이름 글자수 2자 이상 입력 요함 (${user.length}자임)`)
   if (body.length<2) throw(`댓글 내용 2자 이상 입력 요함 (${body.length}자임)`)
   const now = Timestamp.now()
   const comment_id = `c${now.seconds}_${parseInt(Math.random()*1000000)}`
@@ -159,11 +159,15 @@ export async function edit_comment_apply(comment_id){
   const user = ele.querySelector('input[name=user]').value
   const body = ele.querySelector('input[name=body]').value
 
+  try{
   if(typeof user != "string") throw('user가 이상함');
   if(typeof body != "string") throw('댓글 내용이 이상함');
   if(typeof uid != "string") throw('uid 설정 실패');
-  if (user.length>=30) throw(`user 글자수 30자 초과함 (${user.length}자임)`)
+  if (user.length>=30) throw(`이름 글자수 30자 초과함 (${user.length}자임)`)
   if (body.length>=1000) throw(`댓글 내용 글자수 1000자 초과함 (${body.length}자임)`)
+  if (user.length<2) throw(`이름 글자수 2자 이상 입력 요함 (${user.length}자임)`)
+  if (body.length<2) throw(`댓글 내용 2자 이상 입력 요함 (${body.length}자임)`)
+  }catch(err){alert(err); return;}
 
   comments[index][1].user = user
   comments[index][1].body = body
