@@ -16,7 +16,7 @@ title: About
 ### 2022
 
 - 2022.04: [Nodejs로 간단한 서버 실행 프로그램 만들어 NPM에 배포](https://github.com/esctabcapslock/onweb)<span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
-- 2022.04~: [Firebase로 블로그 댓글 시스템 만들기](https://esctabcapslock.github.io/firebase만들기.html) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo HTML5" title="HTML5"></span>
+- 2022.04: [Firebase로 블로그 댓글 시스템 만들기](https://esctabcapslock.github.io/firebase만들기.html) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo HTML5" title="HTML5"></span>
 - 2022.04: [웹 사이트 다운로드 프로그램](https://github.com/esctabcapslock/website_download) <span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
 - 2022.03: [20대 대선 통계지도](https://github.com/esctabcapslock/ElectionMap) <span class="langlogo qgis" title="QGIS 3.6.10"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
 

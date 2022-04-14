@@ -65,10 +65,10 @@ entries:
       - title: sitemap
         url: sitemap.xml
 
-      - title: Source code
+      - title: source code
         url: https://github.com/esctabcapslock/esctabcapslock.github.io
 
-      - title: "<a href='https://riggraz.dev'>riggraz.dev</a>의 <a href='https://github.com/riggraz/no-style-please/network/dependents'>no-style-please</a> 테마를 수정하여 사용중입니다."
+      - title: "<a href='https://riggraz.dev'>riggraz</a>의 <a href='https://github.com/riggraz/no-style-please'>no-style-please</a> 테마를 수정하여 사용중입니다."
   
   # - title: another list
   #   entries:
