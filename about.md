@@ -5,6 +5,7 @@ title: About
 
 - 이곳은 esctabcapslock의 블로그입니다!
 - 뭘 하며 살았는지 찾기 쉽게 하기 위해서 블로그를 열었습니다.
+- [내 Github](https://github.com/esctabcapslock)
 
 ## 만든것들
 

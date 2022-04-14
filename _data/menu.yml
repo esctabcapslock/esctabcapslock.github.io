@@ -8,8 +8,8 @@ entries:
       - title: 뭘 하며 살았는지 찾기 쉽게 하기 위해서 블로그를 열었습니다.
       - title: About me
         url: about
-      # - title: github repo
-        # url: https://github.com/riggraz/no-style-please
+      - titie: Github
+        url: https://github.com/esctabcapslock
 
 
   - title: all posts

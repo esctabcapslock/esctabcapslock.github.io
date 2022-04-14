@@ -23,7 +23,7 @@ category: 코딩
 ### 배포하기
 
 - [package.json](https://github.com/esctabcapslock/onweb/blob/main/package.json)을 잘 설정해야 한다.
-    - `npmjs.com/package/[package name]`으로 검색해 중복되지 않는 이름 `onweb` 선정
+    - `npmjs.com/package/[package name]`으로 검색해 중복되지 않는 이름 **onweb** 선정
     - `name`, `main` `bin` 등 속성 입력. `preferGlobal`속성은 전역 설치를 권고한다는 뜻.  
     - `bin`은 실행 바로가기(?)를 만드는 기능으로 추측
     - `main`은 주 프로그램 넣어주어야 함
