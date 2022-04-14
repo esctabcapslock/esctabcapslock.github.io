@@ -10,7 +10,7 @@ entries:
         url: about
       # - title: github repo
         # url: https://github.com/riggraz/no-style-please
-      # - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: "<a href='https://riggraz.dev'>riggraz.dev</a>의 <a href='https://github.com/riggraz/no-style-please/network/dependents'>no-style-please</a> 테마를 수정하여 사용했습니다."
 
   - title: all posts
     post_list:
@@ -27,12 +27,28 @@ entries:
           show_more: true
           show_more_text: See more posts...
           show_more_url: example2-archive.html
+
       - title: ML
         post_list:
           category: ML
           show_more: true
           show_more_text: See more posts...
           show_more_url: example2-archive.html
+
+      - title: 보안
+        post_list:
+          category: 보안
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: example2-archive.html
+
+      - title: 코딩
+        post_list:
+          category: 코딩
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: example2-archive.html
+
       - title: 기타
         post_list:
           category: 기타

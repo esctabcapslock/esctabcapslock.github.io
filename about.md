@@ -9,14 +9,16 @@ title: About
 ## 만든것들
 
 ### 진행중
-- 2022.04~: [GitHub Blog](esctabcapslock.github.io/) <span class="langlogo firebase" title="firebase 9.?"></span><span class="langlogo jekyll" title="Jekyll"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo github" title="Github Pages"></span>  
+- 2022.04~: [GitHub Blog](esctabcapslock.github.io/) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo jekyll" title="Jekyll"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo github" title="Github Pages"></span>  
 - 2022.01~: [일정관리 프로그램](https://github.com/esctabcapslock/JS_Planner) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
 - 2021.07~: [음악 재생기 (가사 및 엘범아트 크롤러 및 사용분석) ver2](https://github.com/esctabcapslock/Js_Music_Player_2) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
 
 ### 2022
 
+- 2022.04: [Nodejs로 CLI 프로그램 만들어 NPM에 배포](https://github.com/esctabcapslock/onweb)<span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
+- 2022.04~: [Firebase로 블로그 댓글 시스템 만들기](https://esctabcapslock.github.io/firebase만들기.html) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo HTML5" title="HTML5"></span>
 - 2022.04: [웹 사이트 다운로드 프로그램](https://github.com/esctabcapslock/website_download) <span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
-- 2022.03: [20대 대선 지도](https://github.com/esctabcapslock/ElectionMap) <span class="langlogo qgis" title="QGIS 3.6.10"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
+- 2022.03: [20대 대선 통계지도](https://github.com/esctabcapslock/ElectionMap) <span class="langlogo qgis" title="QGIS 3.6.10"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
 
 
 ### 2021
@@ -49,7 +51,7 @@ title: About
 - 2020.08~2020.09 [Youtube-dl GUI](https://github.com/esctabcapslock/youtube-dl_UI) <span class="langlogo cplusplus" title="C++"></span><span class="langlogo MFC" title="MFC"></span> 
 - 2020.07: [지하철 통계지도 만들기](https://github.com/esctabcapslock/Python_Performance_Assessment/tree/main/%232.%20%EC%A7%80%ED%95%98%EC%B2%A0%20%ED%86%B5%EA%B3%84%EC%A7%80%EB%8F%84%20(%EC%B2%B4%EC%A0%90X)) <span class="langlogo python" title="Python 3.8"></span>
 - 2020.07: [음악추천 프로그램](https://github.com/esctabcapslock/Python_Performance_Assessment/tree/main/%231.%20%EC%9D%8C%EC%95%85%EC%B6%94%EC%B2%9C%20(%EC%B2%B4%EC%A0%90%20O)/%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C) <span class="langlogo python" title="Python 3.8"></span>
-- 2020.06~2021.06: [음악재생기 v1](https://github.com/esctabcapslock/Js_Music_Player)  <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs">14.?</span>
+- 2020.06~2021.06: [음악재생기 v1](https://github.com/esctabcapslock/Js_Music_Player)  <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 14.?"></span>
 - 2020.05: [온라인 수식 편집기](https://esctabcapslock.github.io/1/LaTex%EC%97%B0%EC%8A%B5.html) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo mathjax" title="Mathjax"></span>
 - 2020.03: [글자 수 세기](https://esctabcapslock.github.io/1/5(글자수세기).html) <span class="langlogo HTML5" title="HTML5"></span> 
 - 2020.03: [오프라인 타이머 만들기](https://esctabcapslock.github.io/1/8(%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%20%ED%83%80%EC%9D%B4%EB%A8%B8).html) <span class="langlogo HTML5" title="HTML5"></span> 
@@ -81,5 +83,6 @@ title: About
     .mathjax{background-image:url('assets/img/mathjax.ico')}
     .github{background-image:url('assets/img/github.png')}
     .jupyter{background-image:url('assets/img/jupyter.ico')}
+    .npm{background-image:url('assets/img/npm.png')}
 
 </style>
