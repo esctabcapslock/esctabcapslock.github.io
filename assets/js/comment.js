@@ -118,7 +118,7 @@ await show_comments()
 // setcomments('test_user','body\nname')
 document.getElementById('comment-submit').addEventListener('click',async e=>{
   const user = document.querySelector('#post-comment-input input[name=user]').value
-  const body = document.querySelector('#post-comment-input input[name=body]').value
+  const body = document.querySelector('#post-comment-input textarea[name=body]').value
   try{
     await setcomments(user, body)
   }catch(err){
@@ -145,19 +145,19 @@ export async function edit_comment(comment_id){
   const ele = document.querySelector('#commentid_'+comment_id+' .comment_edit')
   ele.innerHTML=
     `
-    <label for="user">your name</label><input type="text" name="user" placeholder="your name">
-    <label for="body">comment body</label><input type="text" name="body" placeholder="comment body">
+    <!--<label for="user">your name</label>--><input type="text" name="user" placeholder="your name" minlength="2" maxlength="30">
+    <!--<label for="body">comment body</label>--><textarea name="body" placeholder="comment body" maxlength="1000" minlength="2"></textarea>
     <button type="submit" id="comment-submit" onclick="edit_comment_apply('${comment_id}')">Add a comment</button>
     `
     ele.querySelector('input[name=user]').value = comment.user
-    ele.querySelector('input[name=body]').value = comment.body
+    ele.querySelector('textarea[name=body]').value = comment.body
 }
 export async function edit_comment_apply(comment_id){
   console.log('[edit_comment_apply]')
   const index = find_index_at_comments(comment_id)
   const ele = document.getElementById('commentid_'+comment_id)
   const user = ele.querySelector('input[name=user]').value
-  const body = ele.querySelector('input[name=body]').value
+  const body = ele.querySelector('textarea[name=body]').value
 
   try{
   if(typeof user != "string") throw('user가 이상함');
