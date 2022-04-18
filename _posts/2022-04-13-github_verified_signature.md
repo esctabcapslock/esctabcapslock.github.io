@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 highlightjs: true
 title: "git bash 사용시 github에 verified signature 적용하기"
-category: 보안
+category: 개발
 ---
 
 ## 개요

@@ -28,23 +28,23 @@ entries:
           show_more_text: See more posts...
           show_more_url: example2-archive.html
 
-      - title: ML
+      - title: 데이터
         post_list:
-          category: ML
+          category: 데이터
           show_more: true
           show_more_text: See more posts...
           show_more_url: example2-archive.html
 
-      - title: 보안
+      - title: 클라우드
         post_list:
-          category: 보안
+          category: 클라우드
           show_more: true
           show_more_text: See more posts...
           show_more_url: example2-archive.html
 
-      - title: 코딩
+      - title: 개발
         post_list:
-          category: 코딩
+          category: 개발
           show_more: true
           show_more_text: See more posts...
           show_more_url: example2-archive.html

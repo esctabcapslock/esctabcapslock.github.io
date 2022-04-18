@@ -146,8 +146,8 @@ export async function edit_comment(comment_id){
   ele.innerHTML=
     `
     <!--<label for="user">your name</label>--><input type="text" name="user" placeholder="your name" minlength="2" maxlength="30">
-    <!--<label for="body">comment body</label>--><textarea name="body" placeholder="comment body" maxlength="1000" minlength="2"></textarea>
-    <button type="submit" id="comment-submit" onclick="edit_comment_apply('${comment_id}')">Add a comment</button>
+    <!--<label for="body">comment body</label>--><textarea name="body" placeholder="comment body" maxlength="1000" minlength="2" rows="3"></textarea>
+    <button type="submit" id="comment-submit" onclick="edit_comment_apply('${comment_id}')">Edit the comment</button>
     `
     ele.querySelector('input[name=user]').value = comment.user
     ele.querySelector('textarea[name=body]').value = comment.body
