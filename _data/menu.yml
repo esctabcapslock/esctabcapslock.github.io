@@ -19,8 +19,7 @@ entries:
 
       - title: source code
         url: https://github.com/esctabcapslock/esctabcapslock.github.io
-
-      - title: "<div onclick=`location='https://github.com/esctabcapslock'`>my GitHub</div>"
+      - title: "<div onclick=location='https://github.com/esctabcapslock'>my GitHub</div>"
       - title: guthub
       - title: abcdefg
 
