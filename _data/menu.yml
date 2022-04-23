@@ -21,14 +21,12 @@ entries:
         url: https://github.com/esctabcapslock/esctabcapslock.github.io
 
       - title: "<div onclick=`location='https://github.com/esctabcapslock'`>my GitHub</div>"
-
       - title: guthub
+      - title: abcdefg
 
-      - title: "ㄶ guthub 그리서 ㅁㄹㅇ ㄱㅎ뮤  ㄶㄹ ㅎㄹ "
-
-      - title: "ㄶ guthub 그리서 ㅁㄹㅇ ㄱㅎ뮤  ㄶㄹ ㅎㄹ "
+      - title: abcde
         - url: https://github.com/esctabcapslock
-        
+
 
 
   - title: all posts
