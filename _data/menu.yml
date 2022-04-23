@@ -9,23 +9,6 @@ entries:
 
       - title: About me
         url: about
-        
-      - titie: rtvf
-        url: github.com/esctabcapslock
-
-      - title: test
-
-      - title: <a href='aobr'>test2</a>
-
-      - title: source code
-        url: https://github.com/esctabcapslock/esctabcapslock.github.io
-      - title: "<div onclick=location='https://github.com/esctabcapslock'>my GitHub</div>"
-      - title: guthub
-      - title: abcdefg
-
-      - title: abcde
-        - url: https://github.com/esctabcapslock
-
 
 
   - title: all posts
