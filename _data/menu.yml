@@ -10,8 +10,11 @@ entries:
       - title: About me
         url: about
         
-      - titie: Github
-        url: https://github.com/esctabcapslock
+      - titie: 12345
+        url: github.com/esctabcapslock
+      - title: test
+      - title: <a href='aobr'>test2</a>
+
 
 
   - title: all posts
