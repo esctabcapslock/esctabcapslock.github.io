@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 highlightjs: true
 title: "자바스크립트와 다른 파이썬 특징"
-category: Python
+category: Python  
 ---
 
 ## 개요
@@ -33,7 +33,7 @@ def combinations(iterable, r):
 print([*combinations(range(7), 3)])
 ```
 
-$${}_7 C_3$이면 [6,5,4]를 뒤에서 부터 비교함.
+${}_7 C_3$이면 [6,5,4]를 뒤에서 부터 비교함.
 
 [0,1,2] 하고 마자막 안겹침
 
