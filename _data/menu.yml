@@ -48,6 +48,28 @@ entries:
           show_more_text: See more posts...
           show_more_url: example2-archive.html
 
+      - title: 언어와 문법들
+        - title: Python
+          post_list:
+            category: Python
+            show_more: true
+            show_more_text: See more posts...
+            show_more_url: example2-archive.html
+
+        - title: Javascript
+          post_list:
+            category: Javascript
+            show_more: true
+            show_more_text: See more posts...
+            show_more_url: example2-archive.html
+
+        - title: Rust
+          post_list:
+            category: Rust
+            show_more: true
+            show_more_text: See more posts...
+            show_more_url: example2-archive.html
+
       - title: 기타
         post_list:
           category: 기타
