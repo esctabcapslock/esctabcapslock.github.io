@@ -48,7 +48,7 @@ entries:
           show_more_text: See more posts...
           show_more_url: example2-archive.html
 
-      - title: 언어와 문법들
+      - title: <b>언어와 문법들</b>
       - title: Python
         post_list:
           category: Python
@@ -66,6 +66,13 @@ entries:
       - title: Rust
         post_list:
           category: Rust
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: example2-archive.html
+
+      - title: WebAssembly
+        post_list:
+          category: WebAssembly
           show_more: true
           show_more_text: See more posts...
           show_more_url: example2-archive.html

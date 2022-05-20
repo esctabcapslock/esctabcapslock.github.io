@@ -51,6 +51,6 @@ s-expression이라는 이상한 형식으로 되어 있다.
 또 메인 메모리가 있어 접근할 수 있는 듯. table은 아직 잘 모르겠다.
 
 
-[^1]: 안타깝게도  Highlight.js로 wat를 하이라이팅하기 위해 설정을 손봐주어야 했다. 추가 언어 관련 스크립트를 추가해야 함.
+[^1]: 안타깝게도  Highlight.js로 wat를 하이라이팅하기 위해 설정을 손봐주어야 했다. 추가 언어 관련 스크립트를 추가해야 함. **\`\`\`wasm**이라고 써야 함. 확장자도 이거. `wat` 안됨
 
 [book]: https://esctabcapslock.github.io/rustwasmbook-ko
