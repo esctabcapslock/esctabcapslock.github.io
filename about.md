@@ -97,8 +97,8 @@ title: About
     .webassembly{background-image:url('assets/img/webassembly.ico')}
     .rust{background-image:url('assets/img/rust.png')}
     @media (prefers-color-scheme: dark) {
-        .rust{filter:invert(1)}
-        .github{filter:invert(1)}
+        .rust{filter:invert(0) !important;}
+        .github{filter:invert(0) !important;}
     }
 
 </style>
