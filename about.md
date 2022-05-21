@@ -5,17 +5,26 @@ title: About
 
 - 이곳은 esctabcapslock의 블로그입니다!
 - 뭘 하며 살았는지 찾기 쉽게 하기 위해서 블로그를 열었습니다.
-- [내 Github](https://github.com/esctabcapslock)
+- [Github 주소](https://github.com/esctabcapslock)
+
+## 관심있는 주제들
+- Typescript, Javascript, Git, WebAssembly, Rust, AWS, 머신러닝, Python, Nodejs, ...
+- 종속성 적은 개발을 지향함
 
 ## 만든것들
 
 ### 진행중
 - 2022.04~: [GitHub Blog](esctabcapslock.github.io/) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo jekyll" title="Jekyll"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo github" title="Github Pages"></span>  
+- 2022.04~: [JSON 기반 웹 프레임워크 만들기](esctabcapslock.github.io/) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
+
 - 2022.01~: [일정관리 프로그램](https://github.com/esctabcapslock/JS_Planner) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
 - 2021.07~: [음악 재생기 (가사 및 엘범아트 크롤러 및 사용분석) ver2](https://github.com/esctabcapslock/Js_Music_Player_2) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
 
 ### 2022
 
+- 2022.05: [The Rust and WebAssembly Book 번역하기](https://esctabcapslock.github.io/editer_for_my_github_blog/asset/index.html)<span class="langlogo rust" title="rust"></span><span class="langlogo webassembly" title="webassembly"></span>
+- 2022.05: [테이블 이미지를 csv로 변환](https://github.com/esctabcapslock/tableOCR)<span class="langlogo python" title="Python 3.10"></span><span class="langlogo HTML5" title="HTML5"></span>
+- 2022.04: [깃헙 블로그를 위한 에디터](https://esctabcapslock.github.io/editer_for_my_github_blog/asset/index.html)<span class="langlogo HTML5" title="HTML5"></span><span class="langlogo mathjax" title="Mathjax"></span>
 - 2022.04: [Nodejs로 간단한 서버 실행 프로그램 만들어 NPM에 배포](https://github.com/esctabcapslock/onweb)<span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
 - 2022.04: [Firebase로 블로그 댓글 시스템 만들기](https://esctabcapslock.github.io/firebase만들기.html) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo HTML5" title="HTML5"></span>
 - 2022.04: [웹 사이트 다운로드 프로그램](https://github.com/esctabcapslock/website_download) <span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
@@ -34,7 +43,7 @@ title: About
 - 2021.08: [마크다운 컴파일러](https://github.com/esctabcapslock/Markdown_Compiler) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
 - 2021.08: [파일 전송 ver2](https://github.com/esctabcapslock/file_send_2) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
 - 2021.07: [북궐도형 온라인](https://esctabcapslock.github.io/Gyeongbokgung/) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo python" title="Python 3.9"></span><span class="langlogo jupyter" title="Jupyter Notebook"></span><span class="langlogo PIL"></span>
-- 2021.06: [컴퓨터 배터리 정보 기록하기](https://github.com/esctabcapslock/Battery_record/) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo c"> 
+- 2021.06: [컴퓨터 배터리 정보 기록하기](https://github.com/esctabcapslock/Battery_record/) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo c"></span>
 - 2021.06: [국토중심 계산하기](https://github.com/esctabcapslock/center_of_population/) <span class="langlogo python" title="Python 3.9"></span>
 - 2021.05: [PPT 원격 제어](https://github.com/esctabcapslock/PPT_Remote_Control) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
 - 2021.05: [Epub 리더](https://github.com/esctabcapslock/epub_reader) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
@@ -85,5 +94,11 @@ title: About
     .github{background-image:url('assets/img/github.png')}
     .jupyter{background-image:url('assets/img/jupyter.ico')}
     .npm{background-image:url('assets/img/npm.png')}
+    .webassembly{background-image:url('assets/img/webassembly.ico')}
+    .rust{background-image:url('assets/img/rust.png')}
+    @media (prefers-color-scheme: dark) {
+        .rust{filter:invert(1)}
+        .github{filter:invert(1)}
+    }
 
 </style>
