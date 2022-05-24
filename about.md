@@ -15,17 +15,16 @@ title: About
 
 ### 진행중
 - 2022.04~: [GitHub Blog](esctabcapslock.github.io/) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo jekyll" title="Jekyll"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo github" title="Github Pages"></span>  
-- 2022.04~: [JSON 기반 웹 프레임워크 만들기](esctabcapslock.github.io/) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
-
+- 2022.04~: [JSON 기반 웹 프레임워크 만들기](esctabcapslock.github.io/) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
 - 2022.01~: [일정관리 프로그램](https://github.com/esctabcapslock/JS_Planner) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
 - 2021.07~: [음악 재생기 (가사 및 엘범아트 크롤러 및 사용분석) ver2](https://github.com/esctabcapslock/Js_Music_Player_2) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
 
 ### 2022
 
-- 2022.05: [The Rust and WebAssembly Book 번역하기](https://esctabcapslock.github.io/editer_for_my_github_blog/asset/index.html)<span class="langlogo rust" title="rust"></span><span class="langlogo webassembly" title="webassembly"></span>
-- 2022.05: [테이블 이미지를 csv로 변환](https://github.com/esctabcapslock/tableOCR)<span class="langlogo python" title="Python 3.10"></span><span class="langlogo HTML5" title="HTML5"></span>
-- 2022.04: [깃헙 블로그를 위한 에디터](https://esctabcapslock.github.io/editer_for_my_github_blog/asset/index.html)<span class="langlogo HTML5" title="HTML5"></span><span class="langlogo mathjax" title="Mathjax"></span>
-- 2022.04: [Nodejs로 간단한 서버 실행 프로그램 만들어 NPM에 배포](https://github.com/esctabcapslock/onweb)<span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
+- 2022.05: [The Rust and WebAssembly Book 번역하기](https://github.com/esctabcapslock/rustwasmbook-ko) <span class="langlogo rust" title="rust"></span><span class="langlogo webassembly" title="webassembly"></span>
+- 2022.05: [테이블 이미지를 csv로 변환](https://github.com/esctabcapslock/tableOCR) <span class="langlogo python" title="Python 3.10"></span><span class="langlogo HTML5" title="HTML5"></span>
+- 2022.04: [깃헙 블로그를 위한 에디터](https://esctabcapslock.github.io/editer_for_my_github_blog/asset/index.html) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo mathjax" title="Mathjax"></span>
+- 2022.04: [Nodejs로 간단한 서버 실행 프로그램 만들어 NPM에 배포](https://github.com/esctabcapslock/onweb) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
 - 2022.04: [Firebase로 블로그 댓글 시스템 만들기](https://esctabcapslock.github.io/firebase만들기.html) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo HTML5" title="HTML5"></span>
 - 2022.04: [웹 사이트 다운로드 프로그램](https://github.com/esctabcapslock/website_download) <span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
 - 2022.03: [20대 대선 통계지도](https://github.com/esctabcapslock/ElectionMap) <span class="langlogo qgis" title="QGIS 3.6.10"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
