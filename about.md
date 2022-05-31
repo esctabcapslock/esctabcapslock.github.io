@@ -21,10 +21,11 @@ title: About
 
 ### 2022
 
+- 2022.05: [서버시간 계산기 + HTTP&DNS 통신구현 + 네이티브 GUI](https://github.com/esctabcapslock/pickpick) <span class="langlogo rust" title="rust"></span><span class="langlogo python 3.10" title="python 3.10"></span>
 - 2022.05: [The Rust and WebAssembly Book 번역하기](https://github.com/esctabcapslock/rustwasmbook-ko) <span class="langlogo rust" title="rust"></span><span class="langlogo webassembly" title="webassembly"></span>
 - 2022.05: [테이블 이미지를 csv로 변환](https://github.com/esctabcapslock/tableOCR) <span class="langlogo python" title="Python 3.10"></span><span class="langlogo HTML5" title="HTML5"></span>
 - 2022.04: [깃헙 블로그를 위한 에디터](https://esctabcapslock.github.io/editer_for_my_github_blog/asset/index.html) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo mathjax" title="Mathjax"></span>
-- 2022.04: [Nodejs로 간단한 서버 실행 프로그램 만들어 NPM에 배포](https://github.com/esctabcapslock/onweb) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
+- 2022.04: [간단한 폴더 공유 웹서버 모듈 + NPM 배포](https://github.com/esctabcapslock/onweb) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
 - 2022.04: [Firebase로 블로그 댓글 시스템 만들기](https://esctabcapslock.github.io/firebase만들기.html) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo HTML5" title="HTML5"></span>
 - 2022.04: [웹 사이트 다운로드 프로그램](https://github.com/esctabcapslock/website_download) <span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
 - 2022.03: [20대 대선 통계지도](https://github.com/esctabcapslock/ElectionMap) <span class="langlogo qgis" title="QGIS 3.6.10"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
