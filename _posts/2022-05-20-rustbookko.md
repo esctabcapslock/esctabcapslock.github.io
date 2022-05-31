@@ -12,7 +12,7 @@ category: "Rust"
 ## 발단
 [나는](../rust란.html) 요즘 Rust  프로그레밍 언어를 독학하는 중이다. 누가 Rust 책을 [한국어로](https://rinthel.github.io/rust-lang-book-ko/)   번역해 놓은 것을 발견해 이를 유용하게 사용했다. 그래서 나도 한번 번역해 볼까라는 생각을 갖게 된 것 같다.
 
-Rust 관련 사이를 둘러보다가 Rust and WebAssembly 책을 발견했다. 생각해보니 내가 Rust를 시작할때 든 생각 중 하나가 이 Wasm을 하고 싶다는 이유도 있었다. c++이나 java는 멋이 없지 않는가.
+Rust 관련 사이를 둘러보다가 **Rust and WebAssembly**라는 책을 발견했다. 생각해보니 내가 Rust를 시작할때 든 생각 중 하나가 이 Wasm을 하고 싶다는 이유도 있었다. c++이나 java는 멋이 없지 않는가.
 게다가 [Forks 목록][forks]에서 한국어 번역이 존재하지 않는다는 사실을 발견했다. [^1] 또한 라이센스로 `MIT`이기 때문에 나에게 뭐라고 할 사람은 아무도 없을 것이었다. 그래서 시작했다.
 
 

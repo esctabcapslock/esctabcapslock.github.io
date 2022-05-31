@@ -33,6 +33,8 @@ category: "WebAssembly"
 
 이걸 이해하고 싶었다.
 
+`;;`는 주석인데 이 글 쓰면서 내가 넣은거임.
+
 
 주석은 `;;`
 
@@ -45,12 +47,12 @@ category: "WebAssembly"
 
 s-expression이라는 이상한 형식으로 되어 있다.
 
-약간 어깨너머로 구경해본 어셈블리 나 brainfuck과 비슷한 느낌
+약간 어깨 너머로 구경해본 어셈블리 언어 혹은 brainfuck을 구경했을때와 비슷한 분위기를 풍겼다.
 
 아무 말 없으면 함수(?)의 스텍에 넣고...
 또 메인 메모리가 있어 접근할 수 있는 듯. table은 아직 잘 모르겠다.
 
 
-[^1]: 안타깝게도  Highlight.js로 wat를 하이라이팅하기 위해 설정을 손봐주어야 했다. 추가 언어 관련 스크립트를 추가해야 함. **\`\`\`wasm**이라고 써야 함. 확장자도 이거. `wat` 안됨
+[^1]: 안타깝게도  Highlight.js로 wat를 하이라이팅하기 위해 설정을 손봐주어야 했다. 추가 언어 관련 스크립트를 추가해야 함. **\`\`\`wasm**이라고 써야 함. 확장자도 이거. `wat` 쓰면 안됨.VSCode 확장프로그램이 죽음
 
 [book]: https://esctabcapslock.github.io/rustwasmbook-ko

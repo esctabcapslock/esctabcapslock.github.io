@@ -21,7 +21,10 @@ title: About
 
 ### 2022
 
-- 2022.05: [서버시간 계산기 + HTTP&DNS 통신구현 + 네이티브 GUI](https://github.com/esctabcapslock/pickpick) <span class="langlogo rust" title="rust"></span><span class="langlogo python 3.10" title="python 3.10"></span>
+- 2022.05: [Rust Iced로 서버시간 계산 네이티브 GUI ](https://github.com/esctabcapslock/pickpick) <span class="langlogo rust" title="rust"></span><span class="langlogo python 3.10" title="python 3.10"></span>
+- 2022.05: [HTTP 및 Do53/TCP 구현](https://github.com/esctabcapslock/pickpick/blob/master/src/dns.rs) <span class="langlogo rust" title="rust"></span>
+- 2022.05: [서버시간 계산 모듈](https://github.com/esctabcapslock/pickpick/blob/master/src/lib.rs) <span class="langlogo rust" title="rust"></span>
+- 2022.05: [충돌판정이 포함된  Particle system 구현](https://github.com/esctabcapslock/startpage) <span class="langlogo HTML5" title="HTML5"></span>
 - 2022.05: [The Rust and WebAssembly Book 번역하기](https://github.com/esctabcapslock/rustwasmbook-ko) <span class="langlogo rust" title="rust"></span><span class="langlogo webassembly" title="webassembly"></span>
 - 2022.05: [테이블 이미지를 csv로 변환](https://github.com/esctabcapslock/tableOCR) <span class="langlogo python" title="Python 3.10"></span><span class="langlogo HTML5" title="HTML5"></span>
 - 2022.04: [깃헙 블로그를 위한 에디터](https://esctabcapslock.github.io/editer_for_my_github_blog/asset/index.html) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo mathjax" title="Mathjax"></span>
