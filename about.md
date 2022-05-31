@@ -21,8 +21,8 @@ title: About
 
 ### 2022
 
-- 2022.05: [Rust Iced로 서버시간 계산 네이티브 GUI ](https://github.com/esctabcapslock/pickpick) <span class="langlogo rust" title="rust"></span><span class="langlogo python 3.10" title="python 3.10"></span>
-- 2022.05: [HTTP 및 Do53/TCP 구현](https://github.com/esctabcapslock/pickpick/blob/master/src/dns.rs) <span class="langlogo rust" title="rust"></span>
+- 2022.05: [서버시간 계산기의 네이티브 GUI](https://github.com/esctabcapslock/pickpick) <span class="langlogo rust" title="rust"></span><span class="langlogo iced" title="iced 0.4"></span><span class="langlogo python" title="python 3.10"></span>
+- 2022.05: [HTTP 및 Do53/TCP 간단 구현](https://github.com/esctabcapslock/pickpick/blob/master/src/dns.rs) <span class="langlogo rust" title="rust"></span>
 - 2022.05: [서버시간 계산 모듈](https://github.com/esctabcapslock/pickpick/blob/master/src/lib.rs) <span class="langlogo rust" title="rust"></span>
 - 2022.05: [충돌판정이 포함된  Particle system 구현](https://github.com/esctabcapslock/startpage) <span class="langlogo HTML5" title="HTML5"></span>
 - 2022.05: [The Rust and WebAssembly Book 번역하기](https://github.com/esctabcapslock/rustwasmbook-ko) <span class="langlogo rust" title="rust"></span><span class="langlogo webassembly" title="webassembly"></span>
@@ -99,6 +99,7 @@ title: About
     .npm{background-image:url('assets/img/npm.png')}
     .webassembly{background-image:url('assets/img/webassembly.ico')}
     .rust{background-image:url('assets/img/rust.png')}
+    .iced{background-image:url('assets/img/iced.png')}
     @media (prefers-color-scheme: dark) {
         .rust{filter:invert(0) !important;}
         .github{filter:invert(0) !important;}
