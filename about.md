@@ -29,7 +29,7 @@ title: About
 - 2022.05: [HTTP 및 Do53/TCP 간단 구현](https://github.com/esctabcapslock/pickpick/blob/master/src/dns.rs) <span class="langlogo rust" title="rust"></span>
 - 2022.05: [서버시간 계산 모듈](https://github.com/esctabcapslock/pickpick/blob/master/src/lib.rs) <span class="langlogo rust" title="rust"></span>
 - 2022.05: [충돌판정이 포함된  Particle system 구현](https://github.com/esctabcapslock/startpage) <span class="langlogo HTML5" title="HTML5"></span>
-- 2022.05: [The Rust and WebAssembly Book 번역하기](https://github.com/esctabcapslock/rustwasmbook-ko) <span class="langlogo rust" title="rust"></span><span class="langlogo webassembly" title="webassembly"></span>
+- 2022.05: *[The Rust and WebAssembly Book 번역하기](https://github.com/esctabcapslock/rustwasmbook-ko) <span class="langlogo rust" title="rust"></span><span class="langlogo webassembly" title="webassembly"></span>
 - 2022.05: **[테이블 이미지를 csv로 변환](https://github.com/esctabcapslock/tableOCR) <span class="langlogo python" title="Python 3.10"></span><span class="langlogo HTML5" title="HTML5"></span>
 - 2022.04: **[깃헙 블로그를 위한 에디터](https://esctabcapslock.github.io/editer_for_my_github_blog/asset/index.html) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo mathjax" title="Mathjax"></span>
 - 2022.04: [간단한 폴더 공유 웹서버 모듈 + NPM 배포](https://github.com/esctabcapslock/onweb) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
@@ -68,7 +68,7 @@ title: About
 
 - 2020.11: [수학 필기 노트 만들기](https://github.com/esctabcapslock/latex_math_reader) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 14.?"></span><span class="langlogo mathjax" title="Mathjax"></span>
 - 2020.09: **[파일 전송 ver1](https://github.com/esctabcapslock/file_send) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 14.?"></span>
-- 2020.09: [Rss 리더](https://github.com/esctabcapslock/RSS_reader) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 14.?"></span>
+- 2020.09: [RSS 리더](https://github.com/esctabcapslock/RSS_reader) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 14.?"></span>
 - 2020.09: [영타 잘못친 것 변환기](https://esctabcapslock.github.io/wrong-ko/한영변환.html) <span class="langlogo HTML5" title="HTML5"></span> 
 - 2020.08~09 [Youtube-dl GUI](https://github.com/esctabcapslock/youtube-dl_UI) <span class="langlogo cplusplus" title="C++"></span><span class="langlogo MFC" title="MFC"></span> 
 - 2020.07: [지하철 통계지도 만들기](https://github.com/esctabcapslock/Python_Performance_Assessment/tree/main/%232.%20%EC%A7%80%ED%95%98%EC%B2%A0%20%ED%86%B5%EA%B3%84%EC%A7%80%EB%8F%84%20(%EC%B2%B4%EC%A0%90X)) <span class="langlogo python" title="Python 3.8"></span>
