@@ -27,3 +27,9 @@ category: 개발
 - 서명 만들때 이메일은 git bash에 등록된 이메일과 같은 걸로 해야함. (이 문제로 서명 다시 만듦)
     - 내가 지난달에 했던 [뻘짓](https://github.com/esctabcapslock/learn_Rust/blob/master/readme.md)과 대충 관련된 듯 하다.
 
+
+## 추가 06.13
+- 셤기간 끝나고 gpg랑 git 재설치하라니까 다음 경고가 뜸
+> error: cannot spawn [뭐시기]/bin/gpg.exe: No such file or directory
+- `git config --global gpg.program [exe파일 경로]`를 통해서 경로 잡아주면 됨
+- 인증서는 그대로 남아있는 모습을 볼 수 있었다.
