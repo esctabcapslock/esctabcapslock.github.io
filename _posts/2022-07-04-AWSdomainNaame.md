@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 highlightjs: true
 title: "AWS 도메인 구입하기"
-category: "기타"
+category: "클라우드"
 ---
 
 - 나만의 사이트를 만들어보자
