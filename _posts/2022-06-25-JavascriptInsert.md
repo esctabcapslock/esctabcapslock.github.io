@@ -1,6 +1,6 @@
 ---
 layout: post
-mathjax: true
+mathjax: false
 highlightjs: true
 title: "자바스크립트 함수 가로채기"
 category: "Javascript"
@@ -8,7 +8,7 @@ category: "Javascript"
 
 - 모바일 웹브라우저는 콘솔 기능이 없다.
 - `console.log`나 `fetch` 같은 함수들을 가로체서 콘솔을 만들면 좋겠다는 생각을 개발 초기부터 자주 했으나 실행에 옮기지 않았다.
-- 최근에 모바일 사파리 브라우저의 호환성을 체크하면서, [Eruda](https://github.com/liriliri/eruda)라는 웹브라우저용 콘솔 프로젝트를 발견했다.
+- 최근에 모바일 사파리 브라우저의 호환성을 체크하면서, 1시간의 노가다 구글링 끝에 [Eruda](https://github.com/liriliri/eruda)라는 웹브라우저용 콘솔 프로젝트를 발견했다.
     - 당연히 저 위에 내가 생각한 방식대로 돌아가는 것을 확인했다.
 - 그리고 얼마 뒤, AJAX가 적용되는 사이트를 커스텀하기 위해 이 기술을 사용할 필요가 생겼고, 기초적인 래퍼런스를 참고해가며 코딩을 해보았다.
 
