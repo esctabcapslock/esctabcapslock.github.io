@@ -19,13 +19,16 @@ title: About
 
 ### 진행중
 - 2022.04~: **[GitHub Blog](https://esctabcapslock.github.io/) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo jekyll" title="Jekyll"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo github" title="Github Pages"></span>  
-- 2022.04~: [JSON 기반 웹 프레임워크 만들기](https://github.com/esctabcapslock/JSON2Server) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
-- 2022.01~: [일정관리 프로그램](https://github.com/esctabcapslock/JS_Planner) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
-- 2021.07~: *[음악 재생기 (가사 및 엘범아트 크롤러 및 사용분석) ver2](https://github.com/esctabcapslock/Js_Music_Player_2) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
+- 2022.08~: [컴퓨터 사용량 모니터링 시스템](https://github.com/esctabcapslock/timetime) <span class="langlogo rust" title="Rust 1.62"></span><span class="langlogo ms" title="Win32 API"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo electron" title="ElectronJs 20.0.0"></span><span class="langlogo HTML5" title="HTML5"></span>
+
 
 ### 2022
-
-- 2022.05: *[서버시간 계산기의 네이티브 GUI](https://github.com/esctabcapslock/pickpick) <span class="langlogo rust" title="rust"></span><span class="langlogo iced" title="iced 0.4"></span><span class="langlogo python" title="python 3.10"></span>
+- 2022.07: [동영상 흔들림을 보정해서 장노출 사진 만들기 ](https://github.com/esctabcapslock/longExposure) <span class="langlogo python" title="Python 3.10"></span><span class="langlogo opencv" title="Opencv 4.?"></span>
+- 2022.07: [*웹게임(원카드) 실제 서비스 만들기](https://github.com/esctabcapslock/longExposure) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo aws" title="AWS E2C"></span><span class="langlogo nginx" title="Nginx 1.22"></span>
+- 2022.07: [나만의 함수형 웹 프레임워크(expressjs-like) 작성 및 배포](https://github.com/esctabcapslock/httptree) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
+- 2022.07: [도메인 구입 (esclock.net)](https://blog.esclock.net/awsdomainnaame.html) <span class="langlogo aws" title="AWS Route53"></span>
+- 2022.04~05: [JSON 기반 웹 프레임워크 만들기](https://github.com/esctabcapslock/JSON2Server) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
+- 2022.05: *[서버시간 계산기의 네이티브 GUI](https://github.com/esctabcapslock/pickpick) <span class="langlogo rust" title="rust"></span><span class="langlogo iced" title="iced 0.4"></span>
 - 2022.05: [HTTP 및 Do53/TCP 간단 구현](https://github.com/esctabcapslock/pickpick/blob/master/src/dns.rs) <span class="langlogo rust" title="rust"></span>
 - 2022.05: [서버시간 계산 모듈](https://github.com/esctabcapslock/pickpick/blob/master/src/lib.rs) <span class="langlogo rust" title="rust"></span>
 - 2022.05: [충돌판정이 포함된  Particle system 구현](https://github.com/esctabcapslock/startpage) <span class="langlogo HTML5" title="HTML5"></span>
@@ -60,6 +63,7 @@ title: About
 - 2021.05: *[Epub 리더](https://github.com/esctabcapslock/epub_reader) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span>
 - 2021.05: [아파트 매매가격 시각화](https://esctabcapslock.github.io/Apartment_Actual_Price/2(읍면동).html) <span class="langlogo HTML5" title="HTML5"></span><span class="langlogo python" title="Python 3.9"></span><span class="langlogo jupyter" title="Jupyter Notebook"></span>
 - 2021.03~06: [오늘의 급식](https://esctabcapslock.github.io/sasameal/) <span class="langlogo HTML5" title="HTML5"></span> 
+- 2021.07~2022.06: *[음악 재생기 (가사 및 엘범아트 크롤러 및 사용분석) ver2](https://github.com/esctabcapslock/Js_Music_Player_2) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
 - 2021.01: [오실레이터 만들어 연주하기](https://esctabcapslock.github.io/WebAudioAPI/멜로디.html) <span class="langlogo HTML5" title="HTML5"></span> 
 - 2021.01: [유사 이퀄라이저 만들기](https://esctabcapslock.github.io/WebAudioAPI/푸리에.html) <span class="langlogo HTML5" title="HTML5"></span> 
 
@@ -109,6 +113,11 @@ title: About
     .webassembly{background-image:url('assets/img/webassembly.ico')}
     .rust{background-image:url('assets/img/rust.png')}
     .iced{background-image:url('assets/img/iced.png')}
+    .opencv{background-image:url('assets/img/opencv.png')}
+    .aws{background-image:url('assets/img/aws.ico')}
+    .nginx{background-image:url('assets/img/nginx.png')}
+    .electron{background-image:url('assets/img/electron.ico')}
+    .ms{background-image:url('assets/img/ms.ico')}
     @media (prefers-color-scheme: dark) {
         .rust{filter:invert(0) !important;}
         .github{filter:invert(0) !important;}
