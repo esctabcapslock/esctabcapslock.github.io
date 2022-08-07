@@ -20,7 +20,7 @@ title: About
 
 ### 진행중
 - 2022.04~: **[GitHub Blog](https://blog.esclock.net/) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo jekyll" title="Jekyll"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo github" title="Github Pages"></span>  
-- 2022.08~: [컴퓨터 사용량 모니터링 시스템](https://github.com/esctabcapslock/timetime) <span class="langlogo rust" title="Rust 1.62"></span><span class="langlogo ms" title="Win32 API"></span><span class="langlogo sqlite" title="sqlite 3"></span></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo electron" title="ElectronJs 20.0.0"></span><span class="langlogo HTML5" title="HTML5"></span>
+- 2022.08~: [컴퓨터 사용량 모니터링 시스템](https://github.com/esctabcapslock/timetime) <span class="langlogo rust" title="Rust 1.62"></span><span class="langlogo ms" title="Win32 API"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo electron" title="ElectronJs 20.0.0"></span><span class="langlogo HTML5" title="HTML5"></span>
 
 
 ### 2022
