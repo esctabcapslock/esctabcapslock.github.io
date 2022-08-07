@@ -8,24 +8,25 @@ title: About
 - [Github 주소](https://github.com/esctabcapslock)
 
 ## 관심있는 주제들
-- Typescript, Javascript, WebAssembly, Rust, AWS, 머신러닝, Python, Nodejs, ...
+- Typescript, Javascript, Rust, AWS, Python, Nodejs, 머신러닝, WebAssembly ...
+- 코딩 자체에 의의를 둠
 - 종속성 적은 개발을 지향함
 
-## 만든것들
+## 만든 것
 ### 작성 규칙
 
 > - `*`표시: 미표시된 외부 모듈/라이브러리 종속성이 존재
 > - `**`표시: 미표시된 외부 모듈/라이브러리에 핵심적인 부분을 의존
 
 ### 진행중
-- 2022.04~: **[GitHub Blog](https://esctabcapslock.github.io/) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo jekyll" title="Jekyll"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo github" title="Github Pages"></span>  
-- 2022.08~: [컴퓨터 사용량 모니터링 시스템](https://github.com/esctabcapslock/timetime) <span class="langlogo rust" title="Rust 1.62"></span><span class="langlogo ms" title="Win32 API"></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo electron" title="ElectronJs 20.0.0"></span><span class="langlogo HTML5" title="HTML5"></span>
+- 2022.04~: **[GitHub Blog](https://blog.esclock.net/) <span class="langlogo firebase" title="Firebase"></span><span class="langlogo jekyll" title="Jekyll"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo github" title="Github Pages"></span>  
+- 2022.08~: [컴퓨터 사용량 모니터링 시스템](https://github.com/esctabcapslock/timetime) <span class="langlogo rust" title="Rust 1.62"></span><span class="langlogo ms" title="Win32 API"></span><span class="langlogo sqlite" title="sqlite 3"></span></span><span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo electron" title="ElectronJs 20.0.0"></span><span class="langlogo HTML5" title="HTML5"></span>
 
 
 ### 2022
 - 2022.07: [동영상 흔들림을 보정해서 장노출 사진 만들기 ](https://github.com/esctabcapslock/longExposure) <span class="langlogo python" title="Python 3.10"></span><span class="langlogo opencv" title="Opencv 4.?"></span>
-- 2022.07: [*웹게임(원카드) 실제 서비스 만들기](https://github.com/esctabcapslock/longExposure) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo aws" title="AWS E2C"></span><span class="langlogo nginx" title="Nginx 1.22"></span>
-- 2022.07: [나만의 함수형 웹 프레임워크(expressjs-like) 작성 및 배포](https://github.com/esctabcapslock/httptree) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo npm" title="NPM"></span>
+- 2022.07: [*웹게임(원카드) 실제 서비스 만들기](https://game.esclock.net/) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo aws" title="AWS E2C"></span><span class="langlogo nginx" title="Nginx 1.22"></span>
+- 2022.07: [간단한 웹 프레임워크(expressjs-like) 작성 및 배포](https://github.com/esctabcapslock/httptree) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo typescript" title="typescript 4.6.3"></span><span class="langlogo npm" title="NPM"></span>
 - 2022.07: [도메인 구입 (esclock.net)](https://blog.esclock.net/awsdomainnaame.html) <span class="langlogo aws" title="AWS Route53"></span>
 - 2022.04~05: [JSON 기반 웹 프레임워크 만들기](https://github.com/esctabcapslock/JSON2Server) <span class="langlogo nodejs" title="Nodejs 16.14.2"></span><span class="langlogo HTML5" title="HTML5"></span><span class="langlogo sqlite" title="sqlite 3"></span><span class="langlogo typescript" title="typescript 4.6.3"></span>
 - 2022.05: *[서버시간 계산기의 네이티브 GUI](https://github.com/esctabcapslock/pickpick) <span class="langlogo rust" title="rust"></span><span class="langlogo iced" title="iced 0.4"></span>
