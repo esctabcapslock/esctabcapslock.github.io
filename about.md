@@ -5,7 +5,8 @@ title: About
 
 - 이곳은 esctabcapslock의 블로그입니다!
 - 뭘 하며 살았는지 찾기 쉽게 하기 위해서 블로그를 열었습니다.
-- [Github 주소](https://github.com/esctabcapslock)
+- [Github](https://github.com/esctabcapslock)
+- [Mail](mailto://test@mail.esclock.net)
 
 ## 관심있는 주제들
 - Typescript, Javascript, Rust, AWS, Python, Nodejs, 머신러닝, WebAssembly ...
