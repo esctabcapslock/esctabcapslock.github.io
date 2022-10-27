@@ -25,8 +25,11 @@ category: "Javascript"
 ## 장점
 - rust 공부
 - exe 하나로 쉽게 합칠수 있음
-- exe 용량이 적다 (1.6mb)
-    - 당연하지 따로 설치하니까
+- exe 용량이 적고, 한 파일로 나온다 (1.6MB)
+    - 빌드 빠름
+    - 당연하지 웹뷰를 따로 설치하니까
+    - 일렉트론은 튜토리얼만 214MB이다...
+- 컴파일되므로 코드 리버싱이 어렵다
 
 # Electron인가 Webview2인가
 - https://www.electronjs.org/blog/webview2/
