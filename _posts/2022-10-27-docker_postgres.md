@@ -2,7 +2,7 @@
 layout: post
 mathjax: false
 highlightjs: true
-title: "도커 사용법"
+title: "도커로 postgres 사용하기"
 category: "database"
 ---
 
