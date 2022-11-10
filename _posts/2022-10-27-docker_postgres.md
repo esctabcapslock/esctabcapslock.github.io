@@ -82,8 +82,8 @@ create user TEST_USER;
 CREATE USER TEST_USER PASSWORD 'TEST_PASSWD' CREATEDB;
 ```
 - `\l` or `\list`: table 출력
-- `\c` or `\connect` + `<INSTANCE_NAME>`: 인스턴스 접속. 
-     - .
+- `\c` or `\connect` + `<INSTANCE_NAME>`: 접속한 데이터베이스를 변경 / 인스턴스 접속. 
+     - `\c [DB Name] [Connection User}` 
 - `\du` 유저 목록
 - `\dn` 스키마 목록
 - `\?` 도움말
